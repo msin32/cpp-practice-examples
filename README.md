@@ -1,2 +1,2 @@
 # cpp-practice-examples
-c++ programming practice
+Programming practice for advanced C++ concepts.
