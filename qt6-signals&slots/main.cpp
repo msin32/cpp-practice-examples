@@ -5,6 +5,7 @@
 #include <QVBoxLayout>
 #include <QWidget>
 
+/* Pass signals from buttons into slots. */
 class Counter : public QObject {
 Q_OBJECT // enable Meta-Object system
     public : explicit Counter(QObject *parent = nullptr)
@@ -70,5 +71,3 @@ int main(int argc, char *argv[]) {
 }
 
 #include "main.moc"
-
-}
